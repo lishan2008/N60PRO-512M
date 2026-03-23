@@ -4,9 +4,6 @@ name: Build N60 Pro Firmware
 on:
   repository_dispatch:
   workflow_dispatch:
-
-on:
-  workflow_dispatch:
     inputs:
       ssh_enabled:
         description: '启用 SSH 调试'
