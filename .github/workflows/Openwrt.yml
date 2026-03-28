@@ -1,4 +1,4 @@
-name: N60-PRO（512ROM）Openwrt Builder
+name: N60-PRO（512ROM）Openwrt 
 
 on:
   repository_dispatch:
