@@ -1,4 +1,4 @@
-name: IMMORTALWRT Builder（test）
+name: N60-PRO（512ROM）Openwrt Builder
 
 on:
   repository_dispatch:
