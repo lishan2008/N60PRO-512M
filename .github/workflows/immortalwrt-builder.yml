@@ -1,5 +1,5 @@
 # N60 Pro ImmortalWrt 固件自动编译
-name: Build N60 Pro Firmware
+name:  N60-Pro（512rom）ImmortalWrt Firmware
 
 on:
   repository_dispatch:
