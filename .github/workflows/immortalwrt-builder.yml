@@ -7,8 +7,8 @@ on:
      inputs:
        ssh_enabled:
          description: '启用 SSH 调试'
-         required: false
-         default: 'false'
+         required: true
+         default: 'true'
 
 env:
   REPO_URL: https://github.com/lishan2008/immortalwrt
