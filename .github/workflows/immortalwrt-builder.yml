@@ -4,11 +4,11 @@ name:  N60-Pro（512rom）ImmortalWrt Firmware
 on:
   repository_dispatch:
   workflow_dispatch:
-#    inputs:
-#      ssh_enabled:
+     inputs:
+       ssh_enabled:
          description: '启用 SSH 调试'
-#        required: false
-#        default: 'false'
+         required: false
+         default: 'false'
 
 env:
   REPO_URL: https://github.com/lishan2008/immortalwrt
