@@ -16,3 +16,8 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
+# Add openappfilter source
+  git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFiltere
+  chmod -R 755 ./package/OpenAppFiltere/*
+
