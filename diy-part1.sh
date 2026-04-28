@@ -21,3 +21,9 @@
   git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFiltere
   chmod -R 755 ./package/OpenAppFiltere/*
 
+# Add dockerman source
+  git clone https://github.com/xianren78/luci-app-dockerman.git package/Dockerman
+  chmod -R 755 ./package/Dockerman
+
+
+
