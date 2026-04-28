@@ -2,8 +2,8 @@
 name:  N60-Pro（512rom）ImmortalWrt Firmware
 
 on:
-#  repository_dispatch:
-#  workflow_dispatch:
+   repository_dispatch:
+   workflow_dispatch:
 #     inputs:
 #       ssh_enabled:
 #         description: '启用 SSH 调试'
