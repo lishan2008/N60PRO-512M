@@ -11,7 +11,7 @@ on:
 #         default: 'false'
 
 env:
-  REPO_URL: https://downloads.openwrt.org/releases
+  REPO_URL: https://git.openwrt.org/openwrt/openwrt.git
   REPO_BRANCH: 25.12.4
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config.999
