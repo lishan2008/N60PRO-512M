@@ -11,7 +11,7 @@ on:
 #         default: 'false'
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt/tree
+  REPO_URL: https://github.com/immortalwrt/immortalwrt/tree/
   REPO_BRANCH: v25.12.0
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
