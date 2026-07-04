@@ -1,5 +1,4 @@
 # N60 Pro ImmortalWrt 固件自动编译
-
 name:  N60-Pro（512rom）Fanchmwrt Firmware
 
 on:
@@ -35,7 +34,7 @@ jobs:
     - name: 初始化环境(Initialization environment)
       env:
           DEBIAN_FRONTEND: noninteractive
-        run: |
+      run: |
           sudo rm -rf /etc/apt/sources.list.d/* /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
           sudo docker image prune --all --force
           sudo -E apt-get -qq update
