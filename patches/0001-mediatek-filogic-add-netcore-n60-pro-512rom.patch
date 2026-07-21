@@ -321,7 +321,7 @@ index 0000000..4444f7a
 +
 +			partition@580000 {
 +				label = "ubi";
-+				reg = <0x0580000 0x1ea00000>;
++				reg = <0x0580000 0x1e800000>;
 +				compatible = "linux,ubi";
 +
 +				volumes {
