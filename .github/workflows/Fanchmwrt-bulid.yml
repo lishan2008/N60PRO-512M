@@ -17,7 +17,7 @@ env:
   CONFIG_FILE: .config.fan
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
-  PATCH_FILE:
+  PATCH_FILE: patches/512rom.path
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
